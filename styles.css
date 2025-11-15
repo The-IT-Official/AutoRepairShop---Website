@@ -1,5 +1,8 @@
 .home-header {
-    background-color: #0f2358;
+    background: #093028; 
+    background: -webkit-linear-gradient(to right, #237A57, #093028);  
+    background: linear-gradient(to right, #237A57, #093028); 
+    
     padding: 10px;
 
 }
@@ -34,7 +37,7 @@
 }
 
 .home-button {
-    background-color: #FF6B35; 
+    
     text-align: center; 
     height: 50px; 
     width: 200px; 
@@ -46,7 +49,6 @@
 
 .home-footer {
     
-    background-color: #0f2358;
     color: white;
     text-align: center;
     position: fixed;
@@ -95,7 +97,10 @@
 }   
 
 .hours-header {
-    background-color: #0f2358;
+    background: #093028; 
+    background: -webkit-linear-gradient(to right, #237A57, #093028);  
+    background: linear-gradient(to right, #237A57, #093028); 
+    
 
     color: white;
     position:fixed;
@@ -133,7 +138,10 @@
 }
 
 .contact-navbar {
-    background-color: #0f2358;
+    background: #093028; 
+    background: -webkit-linear-gradient(to right, #237A57, #093028);  
+    background: linear-gradient(to right, #237A57, #093028); 
+    
     position: fixed;
     top: 0%;
     right: 0%;
@@ -145,16 +153,6 @@
     }
 
     padding: 10px;
-}
-
-.contact-footer {
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    background-color: #0f2358;
-    color: white;
-    text-align: center;
 }
 
 .container {
