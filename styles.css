@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar ul {
+    background: black;
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+}
+
+.nav-bar h1 {
+    color: white;
+    justify-content: left;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.nav-bar a {
+    color: white;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('background.webp') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.hero p {
+    padding: 10px 0;
+}
+
+.btn  {
+    background: rgba(255, 0, 0, 0.65);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: rgba(255, 0, 0, 1);
+    transform: translateY(-2px);
+}
+
+.footer-content {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.services {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-grid h3 {
+    padding: 10px;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.service-card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+    border: 0.5px solid black;
+}
+
+.why-us-content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.why-us-content h3 {
+    padding: 10px;
+}
+
+.why-us {
+    background: #222;
+}
+
+.call-now {
+    background: #e63946;
+    padding: 30px;
+}
+
+.call-now-content {
+    text-align: center;
+    color: white;
+}
+
+.call-now-content h3 {
+    padding: 20px;
+}
