@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Aemmz Auto Repair</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script src="contact.js"></script>
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <ul>
+        <h1>Aemmz Auto Repair</h1>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="hoem.html#services">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="location.html">Location</a></li>
+      </ul>
+    </nav>
+
+    <div class="contact-information">
+      <div class="contact-header">
+        <h1>Contact Us</h1>
+        <p>Have questions? Reach out to us, and we will get back to you as soon as possible.</p>
+      </div>
+      <h3>Send Us a Message</h3>
+
+      <p>Name</p>
+      <input type="text" id="name" placeholder="Your Name" />
+
+      <p>Phone</p>
+      <input type="text" id="phone" placeholder="Your Phone Number" />
+
+      <p>Message</p>
+      <input type="text" id="message" placeholder="Your Message" />
+
+      <button onclick="sendSMS()">Send Message</button>
+    </div>
+
+    <footer class="footer-content">
+        <p>&copy; 2026 Aemmz Auto Repair | All Aemmz Auto Repair franchise locations are independently owned and operated.</p>
+    </footer>
+  </body>
+</html>
